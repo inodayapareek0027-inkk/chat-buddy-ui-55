@@ -14,7 +14,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "A clean, fast support chat for questions about products, pricing, shipping, refunds, and warranties.",
+          "Chat with AI Customer Support for instant answers on products, pricing, shipping, refunds, warranties, and company policies.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

@@ -77,20 +77,24 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "AI Customer Support" },
+      { title: "AI Customer Support Chat — Instant Answers, 24/7" },
       {
         name: "description",
         content:
-          "AI Customer Support chat for products, pricing, shipping, refunds, and warranties.",
+          "Chat with AI Customer Support for instant answers on products, pricing, shipping, refunds, warranties, and company policies.",
       },
-      { property: "og:title", content: "AI Customer Support" },
+      { property: "og:title", content: "AI Customer Support Chat — Instant Answers, 24/7" },
       {
         property: "og:description",
         content:
-          "AI Customer Support chat for products, pricing, shipping, refunds, and warranties.",
+          "Chat with AI Customer Support for instant answers on products, pricing, shipping, refunds, warranties, and company policies.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "AI Customer Support Chat — Instant Answers, 24/7" },
+      { name: "twitter:description", content: "Chat with AI Customer Support for instant answers on products, pricing, shipping, refunds, warranties, and company policies." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/464c3caf-2972-41c4-9e3d-a47cf70c8c12/id-preview-7273a265--22027f9b-aa4b-4ef0-8e14-ce75b083b357.lovable.app-1785914162512.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/464c3caf-2972-41c4-9e3d-a47cf70c8c12/id-preview-7273a265--22027f9b-aa4b-4ef0-8e14-ce75b083b357.lovable.app-1785914162512.png" },
     ],
     links: [
       {

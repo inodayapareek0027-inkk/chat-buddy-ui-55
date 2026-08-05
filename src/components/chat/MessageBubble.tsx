@@ -98,8 +98,9 @@ function ActionButton({
 
 interface Props {
   message: ChatMessage;
-  onRegenerate?: () => void;
+  onRegenerate?: (() => void) | undefined;
 }
+
 
 export const MessageBubble = memo(function MessageBubble({
   message,
